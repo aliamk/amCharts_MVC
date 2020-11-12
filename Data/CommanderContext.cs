@@ -11,6 +11,5 @@ namespace Commander.Data
         }
         // Represent the Command object down to our database as a DbSet called Commands
         public DbSet<Command> Commands { get; set; }
-
     }
 }
